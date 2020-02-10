@@ -1,0 +1,15 @@
+- 'Home': 'index.md'
+- 'About':
+  - 'LilyPond': 'about/lilypond.md'
+  - 'openLilyLib': 'about/openlilylib.md'
+  - "What's inside": 'about/whatsinside.md'
+  - 'How It Works': 'about/howitworks.md'
+- 'Get Started':
+  - 'Get openLilyLib': 'getstarted/get.md'
+  - 'Install openLilyLib': 'getstarted/install.md'
+  - 'Quick Start': 'getstarted/quickstart.md'
+  - 'General Usage': 'getstarted/usage.md'
+- 'Get Involved':
+  - 'Get in Touch': 'contribute/contact.md'
+  - 'Participate': 'contribute/participate.md'
+  - "Contributor's Guide": 'contribute/cg.md'
