@@ -1,0 +1,26 @@
+theme:
+  name: 'material'
+  palette:
+    primary: '<<<primary_color>>>'
+    accent: '<<<accent_color>>>'
+  logo:
+    icon: 'music_note'
+  feature:
+    tabs: <<<tabs>>>
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc:
+      permalink: true
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - git-revision-date-localized
+extra:
+  search:
+    tokenizer: '[\s\-\.]+'
+use_directory_urls: false
+
+repo_url: https://github.com/openlilylib/openlilylib.github.io
+edit_uri: edit/master/books/<<<src_dir>>>/docs/
