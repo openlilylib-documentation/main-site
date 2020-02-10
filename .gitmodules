@@ -1,0 +1,9 @@
+[submodule "books/scholarly"]
+	path = books/scholarly
+	url = git@github.com:openlilylib-documentation/scholarly.git
+[submodule "books/oll-core"]
+	path = books/oll-core
+	url = git@github.com:openlilylib-documentation/oll-core.git
+[submodule "books/notation-fonts"]
+	path = books/notation-fonts
+	url = git@github.com:openlilylib-documentation/notation-fonts.git
