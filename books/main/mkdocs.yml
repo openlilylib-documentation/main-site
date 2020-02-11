@@ -37,10 +37,10 @@ nav:
 - About:
   - LilyPond: about/lilypond.md
   - openLilyLib: about/openlilylib.md
-  - What's inside: about/whatsinside.md
   - How It Works: about/howitworks.md
+  - What's inside: about/whatsinside.md
+  - Package List: about/packages.md
 - Get Started:
-  - Get openLilyLib: getstarted/get.md
   - Install openLilyLib: getstarted/install.md
   - Quick Start: getstarted/quickstart.md
   - General Usage: getstarted/usage.md
@@ -49,7 +49,5 @@ nav:
   - Participate: contribute/participate.md
   - Contributor's Guide: contribute/cg.md
 - Packages:
-  - '[Main Book]': index.html
-  - notation-fonts: notation-fonts/index.html
   - oll-core: oll-core/index.html
   - scholarLY: scholarly/index.html
