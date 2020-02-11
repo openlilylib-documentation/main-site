@@ -29,7 +29,9 @@ or SSH, depending on your GitHub account (HTTPS doesn't need one).
 
 ```
 cd ~
+# Create root directory (first time only)
 mkdir oll-lib
+cd oll-lib
 git clone https://github.com/openlilylib/oll-core.git
 ```
 
