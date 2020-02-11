@@ -4,3 +4,39 @@
 [submodule "books/oll-core"]
 	path = books/oll-core
 	url = git@github.com:openlilylib-documentation/oll-core.git
+[submodule "books/breaks"]
+	path = books/breaks
+	url = git@github.com:openlilylib-documentation/breaks.git
+[submodule "books/analysis"]
+	path = books/analysis
+	url = git@github.com:openlilylib-documentation/analysis.git
+[submodule "books/bezier"]
+	path = books/bezier
+	url = git@github.com:openlilylib-documentation/bezier.git
+[submodule "books/edition-engraver"]
+	path = books/edition-engraver
+	url = git@github.com:openlilylib-documentation/edition-engraver.git
+[submodule "books/gridly"]
+	path = books/gridly
+	url = git@github.com:openlilylib-documentation/gridly.git
+[submodule "books/ji"]
+	path = books/ji
+	url = git@github.com:openlilylib-documentation/ji.git
+[submodule "books/lalily-templates"]
+	path = books/lalily-templates
+	url = git@github.com:openlilylib-documentation/lalily-templates.git
+[submodule "books/notation-fonts"]
+	path = books/notation-fonts
+	url = git@github.com:openlilylib-documentation/notation-fonts.git
+[submodule "books/oll-misc"]
+	path = books/oll-misc
+	url = git@github.com:openlilylib-documentation/oll-misc.git
+[submodule "books/page-layout"]
+	path = books/page-layout
+	url = git@github.com:openlilylib-documentation/page-layout.git
+[submodule "books/partial-compilation"]
+	path = books/partial-compilation
+	url = git@github.com:openlilylib-documentation/partial-compilation.git
+[submodule "books/snippets"]
+	path = books/snippets
+	url = git@github.com:openlilylib-documentation/snippets.git
