@@ -17,7 +17,10 @@ On the repository page of an arbitrary package (the screenshot shows `oll-core`)
 the complete package can be downloaded as a Zip archive and extracted to a
 subdirectory of the *openLilyLib* root directory.
 
-![](../images/gh-download-clone.png)
+![Repository on GitHub, Download pop-up](../images/gh-download-clone.png)
+
+!!! note "NOTE:"
+    The directory name within the downloaded archive is appended with the Git branch name, so the download of `oll-core` may include the directory `oll-core-master`. The directory name must match the package name, though, therefore When saving this to disk you have to remove the suffix.
 
 ### Cloning With Git
 
