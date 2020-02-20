@@ -41,7 +41,7 @@ git clone https://github.com/openlilylib/oll-core.git
 ### Directory Layout
 
 As said all packages are stored in subdirectories of a common root. The minimum
-setup includes the [oll-core}(../oll-core/index.html) package, but usually other
+setup includes the [oll-core](../oll-core/index.html) package, but usually other
 packages will be used too. Some packages make use of other packages (i.e. they
 “depend” on them), which is expected to be part of the package's documentation.
 
