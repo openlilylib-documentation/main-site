@@ -10,6 +10,7 @@ theme:
 markdown_extensions:
   - codehilite
   - admonition
+  - footnotes
   - toc:
       permalink: true
 plugins:
