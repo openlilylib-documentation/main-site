@@ -1,11 +1,9 @@
 # openLilyLib
 
 *openLilyLib* is an extension infrastructure for the
-[GNU LilyPond](http://lilypond.org) notation software. It provides a mechanism
-to load external packages extending LilyPond's functionality, but this is
-actually somewhat misleading as it simplifies the reality.
+[GNU LilyPond](https://lilypond.org) notation software. It is a mechanism
+to capture blocks of functionality created by users and make them available as
+powerful yet easy-to-use packages.
 
-*openLilyLib* actually serves a two-fold goal: providing ready-to-use
-functionality enhancements for LilyPond (bundled in packages) &ndash; and an
-infrastructure providing building blocks to make it easier to create modular and
-reusable bits of code and functionality in the end-user domain.
+As a side effect the infrastructure provides many building blocks itself that
+can be reused to simplify the development of custom extension functionality.
