@@ -37,8 +37,8 @@ produce decent documentation. One of the main reasons (if not *the* main) that
 under-documentation.
 
 The website you are reading now has been started in February 2020 as a first
-shot at a coherent and comprehensive documenation strategy for *openLilyLib*. It
-features high-level “authored” manuals that can pretty easily be maintained
+shot at a coherent and comprehensive documentation strategy for *openLilyLib*.
+It features high-level “authored” manuals that can pretty easily be maintained
 without touching internal package code. In addition to that we are working an a
 solution to also integrate API/code documentation with a low-level reference of
 available commands and functionality.

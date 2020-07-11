@@ -9,11 +9,11 @@ Any LilyPond document wanting to make use of *openLilyLib* first has to load
 
 After this various commands for loading packages and submodules are available.
 They will be explained on the following pages, but for a starter this will load
-the [stylesheets](../stylesheets/index.html) package and the `annotate` module
-from the [scholarLY](../scholarly/index.html) package:
+the [edition-engraver](../edition-engraver/index.html) package and the
+`annotate` module from the [scholarLY](../scholarly/index.html) package:
 
 ```lilypond
 \include "oll-core/package.ily"
-\loadPackage stylesheets
+\loadPackage edition-engraver
 \loadModule scholarly.annotate
 ```

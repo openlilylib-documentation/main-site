@@ -68,6 +68,10 @@ lilypond -I ~/oll-lib path/to/file.ly
 
 will do that for the current compilation process.
 
+!!! note
+
+    The argument given to the `-I` option must be an absolute path.
+
 In order not to have to add this to every compilation command it is possible to
 create a wrapper script, which may be a good idea for a variety of use cases
 anyway.

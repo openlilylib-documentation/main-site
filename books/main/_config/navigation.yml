@@ -2,13 +2,15 @@
 - 'About':
   - 'LilyPond': 'about/lilypond.md'
   - 'openLilyLib': 'about/openlilylib.md'
-  - 'How It Works': 'about/howitworks.md'
   - "What's inside": 'about/whatsinside.md'
   - 'Package List': 'about/packages.md'
 - 'Get Started':
   - 'Install openLilyLib': 'getstarted/install.md'
   - 'Quick Start': 'getstarted/quickstart.md'
-  - 'General Usage': 'getstarted/usage.md'
+  - 'General Usage':
+    - 'Using Packages': 'getstarted/packages.md'
+    - 'Options': 'getstarted/options.md'
+    - 'Properties': 'gestarted/properties.md'
 - 'Get Involved':
   - 'Get in Touch': 'contribute/contact.md'
   - 'Participate': 'contribute/participate.md'

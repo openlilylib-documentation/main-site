@@ -1,7 +1,7 @@
 # GNU LilyPond
 
-[GNU LilyPond](https://lilypond.org) is a music notation program with a strong
-focus on traditional craftsmanship.
+[GNU LilyPond](https://lilypond.org) is a music notation program strongly
+inspired by traditional craftsmanship.
 
 LilyPond works by compiling input files with a textual representation of musical
 *content* into graphical score files. This is very different from the
