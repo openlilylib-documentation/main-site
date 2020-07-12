@@ -1,3 +1,5 @@
 primary_color: 'Brown'
 accent_color: 'Amber'
 tabs: 'false'
+book_name: 'NO BOOKNAME GIVEN'
+repo_name: 'INVALID'
