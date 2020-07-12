@@ -10,7 +10,8 @@
   - 'General Usage':
     - 'Using Packages': 'getstarted/packages.md'
     - 'Options': 'getstarted/options.md'
-    - 'Properties': 'gestarted/properties.md'
+    - 'Properties': 'getstarted/properties.md'
+    - 'Logging': 'getstarted/logging.md'
 - 'Get Involved':
   - 'Get in Touch': 'contribute/contact.md'
   - 'Participate': 'contribute/participate.md'

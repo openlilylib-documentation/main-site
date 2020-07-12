@@ -14,12 +14,17 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
 plugins:
   - search
-  - minify:
-      minify_html: true
+#  - minify:
+#      minify_html: true
   - git-revision-date-localized
-  - lilypond
+  - git-authors
+#  - lilypond
 extra:
   search:
     tokenizer: '[\s\-\.]+'
