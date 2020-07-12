@@ -1,6 +1,6 @@
 # Loading Packages and Modules
 
-There are more ways to load packages and modules than the tow listed on the
+There are more ways to load packages and modules than the two listed on the
 previous page. These will be introduced and described from an end-user's
 perspective on this page, while all the details are documented with the
 [oll-core](../oll-core/index.html) package, which also gives guidance for
@@ -99,7 +99,12 @@ cases there are two caveats:
    be considered what is more appropriate for a given document or project.
 2. Each entry in the symbol-list is considered an independent module, therefore
    this syntax doesn't support loading submodules (which are referenced by
-   symblo-lists themselves)
+   symbol-lists themselves)
+
+!!! todo
+
+    It is planned to support a syntax for nested submodules too (by entering a
+    nested list in Scheme syntax), but this hasn't been implemented yet.
 
 
 ## Package Metadata
