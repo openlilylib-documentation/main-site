@@ -25,5 +25,5 @@ extra:
     tokenizer: '[\s\-\.]+'
 use_directory_urls: false
 
-repo_url: https://github.com/openlilylib/openlilylib.github.io
-edit_uri: edit/master/books/<<<src_dir>>>/docs/
+repo_url: https://github.com/openlilylib-documentation/<<<repo_name>>>
+edit_uri: edit/master/<<<src_dir>>>/docs/
