@@ -1,5 +1,6 @@
 theme:
   name: 'material'
+  font: false # Remove Google Font API usage (GDPR compliance)
   palette:
     primary: '<<<primary_color>>>'
     accent: '<<<accent_color>>>'
