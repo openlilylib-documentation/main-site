@@ -54,7 +54,11 @@ This will use the original values for the length, arrow-tip, and placement
 properties, the color changed in `\setProperties` before, and the line-style and
 angle passed directly into the function.
 
-While this makes it possible to have very fine-grained control over all settings of a function, especially for properties that may have to be adjusted to the actual engraving situation (the line length of this arrow may be a good example) there may be the need for having multiple configurations to indicating related cases, for example by a common color or line-style.
+While this makes it possible to have very fine-grained control over all settings
+of a function, especially for properties that may have to be adjusted to the
+actual engraving situation (the line length of this arrow may be a good example)
+there may be the need for having multiple configurations to indicating related
+cases, for example by a common color or line-style.
 
 It wouldn't be maintainable and scalable to individually configure every single
 instance manually, and therefore we have complex possibilities in the powerful
