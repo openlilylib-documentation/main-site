@@ -10,7 +10,11 @@
   - 'General Usage':
     - 'Using Packages': 'getstarted/packages.md'
     - 'Options': 'getstarted/options.md'
-    - 'Properties': 'getstarted/properties.md'
+    - 'Properties':
+      - 'Introduction': 'getstarted/properties.md'
+      - 'Property Sets': 'getstarted/property-sets.md'
+      - 'Functions with Property Sets': 'getstarted/propset-functions.md'
+      - 'Property Configurations': 'getstarted/property-configurations.md'
     - 'Logging': 'getstarted/logging.md'
 - 'Get Involved':
   - 'Get in Touch': 'contribute/contact.md'
