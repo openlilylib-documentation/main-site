@@ -1,13 +1,13 @@
 # Function with Property Sets
 
 Property sets are typically used by functions that have been created with the
-`with-property-set` macro. These functions have access to the “current“ value of
+`with-property-set` macro.[^func-author] These functions have access to the “current“ value of
 each property. This page and the following describes what “current” means in
 this context and how it can be handled in user code.
 
 ## A `with-property-set` Function
 
-Consider a function `\myArrow` that is created with the property set
+Consider a function `\myArrow` that has been created with the property set
 `my-project.tools.arrow` shown on the previous page. It may take a note as an
 argument and print an arrow above or below it.
 
@@ -19,8 +19,8 @@ When called in the simplest form:
 }
 ```
 
-it will use the default properties and print a solid green arrow of 3.75 staff
-spaces with a non-filled tip above the staff.
+it will use the default properties and print a solid green arrow above the
+staff, with a length of 3.75 staff spaces and a non-filled tip.
 
 ## Changing the Default Configuration
 
@@ -63,3 +63,10 @@ cases, for example by a common color or line-style.
 It wouldn't be maintainable and scalable to individually configure every single
 instance manually, and therefore we have complex possibilities in the powerful
 “property configurations“ described on the next page.
+
+[^func-author]:
+
+    This is written with the end-user in mind. For this you can assume someone
+    else, typically a package author, has written a `with-property-set`
+    function. Documentation on how to *write* such functions is within the
+    [oll-core](../../oll-core/index.html) documentation.
