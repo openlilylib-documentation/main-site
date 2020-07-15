@@ -29,6 +29,18 @@ A typical property set for a function drawing an arrow might look like this:
 | angle | `integer?`| 0 |
 | placement | `ly:dir?` | `#UP` | Placement of arrow above, below, or on top of the staff |
 
+### Property Sets vs. Style Sheets
+
+!!! note
+
+    While the example used throughout these pages defines the *apperance* of a
+    score element and while this is probably the case for the vast majority of
+    use cases, property sets are *not* style sheets. The visual appearance is
+    only one possible aspect of property sets. A property *may* address a visual
+    quality of an element, but it can equally pass along arbitrary values such
+    as (just to name a few) music expressions, export targets, naming schemes
+    for output files, algorithmic choices.
+
 ### Addressing Property Sets
 
 Property Sets are stored in a central tree structure and are addressed with a
