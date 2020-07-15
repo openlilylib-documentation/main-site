@@ -15,6 +15,7 @@
       - 'Property Sets': 'getstarted/property-sets.md'
       - 'Functions with Property Sets': 'getstarted/propset-functions.md'
       - 'Property Configurations': 'getstarted/property-configurations.md'
+      - 'Cascading/Filtering': 'getstarted/prop-conf-cascade-filter.md'
     - 'Logging': 'getstarted/logging.md'
 - 'Get Involved':
   - 'Get in Touch': 'contribute/contact.md'
