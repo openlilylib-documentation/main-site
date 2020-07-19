@@ -1,5 +1,10 @@
 # Cascading and Filtering Property Configurations
 
+*openLilYLib's* property configurations behave similarly to Cascading Style
+Sheets for HTML. They override a subset of a parent property set, and it is
+possible to create sophisticated structures to model individual but related
+behaviour between similar elements. This is achieved through inheritance.
+
 ## Cascading Property Configurations
 
 If the definition of a property configuration contains a `parent` item the configuration inherits from the referenced configuration. For example there could be a secondary “watch” element with a filled arrow-head but otherwise identical appearance which could be defined like this:[^qq]
@@ -11,10 +16,6 @@ If the definition of a property configuration contains a `parent` item the confi
 ```
 
 Parents can cascade to grand- or grand-grand-parents (as long as the parent has a `parent` reference), making complex and sophisticated structures possible.
-
-[^qq]:
-
-    Note that this definition doesn't need properties to be evaluated, therefore it is not necessary to use that quasiquote (backtick) syntax for the association list.
 
 ## Filtering By Property Configurations
 
@@ -48,12 +49,6 @@ There are three filters that can be set for each property configuration, which i
 ```lilypond
 \setPropertyConfFilters <property set> <filter> (<configuration list>)
 ```
-
-!!! todo
-
-    There are substantial changes in the implementation to be done, mirroring
-    the new documentation naming and behaviour.
-    <https://github.com/openlilylib/oll-core/issues/54>
 
 ### Requiring *Any* Property Configuration
 
@@ -94,4 +89,16 @@ The filter `ignore-configurations` accepts a list of configurations that are ign
 
 ### Filtering Globally vs. By Property Set
 
-!!! todo
+The examples above filter instances of a given property set. However, with the
+fake goal of addressing `OLL.global` it is possible to filter all property
+configurations by their name, regardless of the property set they affect.
+
+This is a powerful tool when preparing scores for live update, and multiple different functions are to be displayed/hidden in common scenarios, e.g. with property configuration names like `stageOne`, `stageTwo`, `result` or similar sequences.
+
+Note that the options outline on this and the previous pages provide a powerful
+but complex web of possibiliites which you have to carefully choose and evaluate
+to successfully apply.
+
+[^qq]:
+
+    Note that this definition doesn't need properties to be evaluated, therefore it is not necessary to use that quasiquote (backtick) syntax for the association list.
