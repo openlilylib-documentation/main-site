@@ -17,6 +17,7 @@
       - 'Property Configurations': 'getstarted/property-configurations.md'
       - 'Cascading/Filtering': 'getstarted/prop-conf-cascade-filter.md'
     - 'Logging': 'getstarted/logging.md'
+    - 'Building Blocks': 'getstarted/building-blocks.md'
 - 'Get Involved':
   - 'Get in Touch': 'contribute/contact.md'
   - 'Participate': 'contribute/participate.md'
