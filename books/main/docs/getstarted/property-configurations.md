@@ -7,7 +7,7 @@ As described on the previous page property values effective in a `with-property-
 * local override (`\with {}` block)
 
 In order to save typing, ensure consistency, and to allow semantic markup values
-for subsets of a property set can be saved nd set with a *property
+for it is possible to save subsets of a property set within a *property
 configuration*.
 
 ## Defining Property Configurations
@@ -30,27 +30,44 @@ and their desired values.
 ```
 
 This creates a property configuration `watch` for the property set
-`my-project.tools.arrow`introduced in the preceding pages with a few property
+`my-project.tools.arrow`introduced on the preceding pages, with a few property
 overrides. Note that you can only set existing properties to values that pass
 the type check.
 
 !!! note
 
-    It is not allowed to use `default` as the name for a property configuration
+    It is not allowed to use `default` as the name for a property configuration.
 
 Depending on the nature of the function and the property set, your computing and
 language background and the use case at hand you may understand property
 configurations to be similar to stylesheets in a word processor or DTP app, or
-to presets in a synthesizer or audio effect. But essentially it is more property
-overrides in a subclass in a programming language, setting values to a subset of
-properties in a property set.
+to presets in a synthesizer or audio effect. But essentially it is more like
+property overrides in a subclass in a programming language, updating values of a
+subset of properties in a property set.
 
 ## Using Property Configurations
 
 Once a property configuration has been defined it can be loaded in the
 invocation of a `with-property-set` function.
 
-### Invocation
+### Shorthand Invocation
+
+It is possible to pass the name of a property configuration as the first
+argument of a `with-property-set` function. In this case no further `\with {}`
+block may be used to further specify properties. This is a convenient shortcut
+if a property configuration is desired but no further configuration is
+necessary:
+
+```lilypond
+\myArrow watch c'
+```
+
+will create an arrow with the current default values and the values from the
+`watch` configuration.
+
+### Explicit Invocation
+
+If additional configuration is required a property configuration can also be requested in a `\with {}` block, as follows:
 
 ```lilypond
 \myArrow \with {
@@ -58,8 +75,11 @@ invocation of a `with-property-set` function.
 }
 ```
 
-will create an arrow with the current default values and the values from the
-`watch` configuration.
+In this case additional properties may be specified along with the property configuration.
+
+!!! note
+
+    It is not possible to mix the two invocations and pass both the name as symbol *and* the `\with {}` block to the function.
 
 ### Property Precedence
 
@@ -89,7 +109,3 @@ Often the same property configuration will be used for multiple consecutive func
 \usePropertyConfiguration my-project.tools.arrow.default
 \myArrow c'
 ```
-
-!!! todo
-
-    Not implemented yet: <https://github.com/openlilylib/oll-core/issues/53>
