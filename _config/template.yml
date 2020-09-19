@@ -23,8 +23,15 @@ plugins:
 #  - minify:
 #      minify_html: true
   - git-revision-date-localized
-  - git-authors
-#  - lilypond
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      count_empty_lines: false
+      sort_authors_by: contribution
+      sort_reverse: true
+  - lilypond
+  - oll-external-links
+  - oll-todo
 extra:
   search:
     tokenizer: '[\s\-\.]+'

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block disqus %}
+  {% set label = lang.t("source.revision.date") %}
+<!--
+  <div>
+    <small>
+      Autoren:
+      {{ git_authors_summary }}
+      {% if page.edit_url %}
+        <a href="{{ page.edit_url }}" target="_blank" title="Hier könnte Ihr Name stehen.
+Bearbeiten Sie die Seite!">[Ihr Name ...]</a>
+      {% endif %}
+    </small>
+  </div>
+-->
+{% endblock %}
