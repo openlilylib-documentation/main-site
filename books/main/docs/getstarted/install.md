@@ -20,7 +20,7 @@ subdirectory of the *openLilyLib* root directory.
 ![Repository on GitHub, Download pop-up](../images/gh-download-clone.png)
 
 !!! note "NOTE:"
-    The directory name within the downloaded archive is appended with the Git branch name, so the download of `oll-core` may include the directory `oll-core-master`. The directory name must match the package name, though, therefore When saving this to disk you have to remove the suffix.
+    The directory name within the downloaded archive is appended with the Git branch name, so the download of `oll-core` may include the directory `oll-core-master`. The directory name must match the package name, though, therefore When saving this to disk you have to remove the suffix and extract the archive to `~/oll-lib/oll-core`
 
 ### Cloning With Git
 
@@ -36,6 +36,8 @@ cd ~
 mkdir oll-lib
 cd oll-lib
 git clone https://github.com/openlilylib/oll-core.git
+# or
+git clone git@github.com:openlilylib/oll-core.git
 ```
 
 ### Directory Layout
@@ -50,9 +52,9 @@ An installation of *openLilyLib* with the [page-layout](../page-layout/index.htm
 ```
 ~/
  /oll-lib
-   /oll-core
    /breaks
    /edition-engraver
+   /oll-core
    /page-layout
 ```
 

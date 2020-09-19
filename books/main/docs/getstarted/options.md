@@ -23,7 +23,7 @@ stylesheets.span.span-colors => #`((default . ,darkmagenta))
 ### Changing Package/Module Options
 
 Options can be set to different values with the command
-`\setOption <option-path> <value>`. Setting the value of the `export-targets`
+`\setOption (force) <option-path> <value>`. Setting the value of the `export-targets`
 option in `scholarly.annotate` to a different target list would be done with the following statement at any point in a LilyPond document:
 
 ```lilypond
@@ -33,7 +33,7 @@ option in `scholarly.annotate` to a different target list would be done with the
 ```
 
 Trying to set an option that hasn't been registered by a package or project
-infrastructure will result in a warning.
+infrastructure will result in a warning and skipping of the assignment. Except if the `force` argument is set to `##t` inwhich case the option is registered in one go.
 
 ### Changing Child Options
 
