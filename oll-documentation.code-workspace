@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "books"
+		},
+		{
+			"path": "../mhs/mkdocs-library"
+		},
+		{
+			"path": "../uliska/one-pad-crypt"
+		},
+		{
+			"path": "../openlilylib-resources/mkdocs-openlilylib-plugin"
+		},
+		{
+			"path": "../mhs/glarean-books"
+		}
+	],
+	"settings": {
+		"typewriterScrollMode.enable": false
+	}
+}
