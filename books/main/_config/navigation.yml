@@ -19,6 +19,20 @@
     - 'Logging': 'getstarted/logging.md'
     - 'Building Blocks': 'getstarted/building-blocks.md'
 - 'Get Involved':
-  - 'Get in Touch': 'contribute/contact.md'
-  - 'Participate': 'contribute/participate.md'
-  - "Contributor's Guide": 'contribute/cg.md'
+  - 'Get in Touch': 'get-involved/contact.md'
+  - 'Participate': 'get-involved/participate.md'
+  - 'Donate and Commission': 'get-involved/donate.md'
+- 'Contribute':
+  - 'Overview': 'contribute/index.md'
+  - 'Package Development': 'contribute/packages.md'
+  - 'Core Development': 'contribute/core-development.md'
+  - 'Documentation':
+    - 'Overview': 'contribute/documentation/index.md'
+    - 'Tool Setup': 'contribute/documentation/setup.md'
+    - 'Content Setup': 'contribute/documentation/get-content.md'
+    - 'Process':
+      - 'Write': 'contribute/documentation/write.md'
+      - 'Build': 'contribute/documentation/build.md'
+      - 'Commit': 'contribute/documentation/commit.md'
+      - 'Propose': 'contribute/documentation/propose.md'
+    - 'Add Packages': 'contribute/documentation/add-packages.md'
